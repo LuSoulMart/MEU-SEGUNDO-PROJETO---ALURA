@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>A Cidade Perdida de Azuran</title>
+</head>
+<body>
+    <main>
+        <!-- Passo 0 -->
+        <div class="passo ativo" id="passo-0">
+            <img src="passo0.jpg" alt="Mapa antigo em uma mesa">
+            <p>Você encontrou um mapa antigo em um baú no sótão de sua casa. Ele parece indicar o caminho para Azuran, uma cidade lendária cheia de tesouros. Porém, a jornada será perigosa. Você decide começar a aventura.</p>
+            <button class="btn-proximo" data-proximo="1">Estudar o mapa em detalhes</button>
+            <button class="btn-proximo" data-proximo="2">Partir imediatamente para a floresta</button>
+        </div>
+
+        <!-- Passo 1 -->
+        <div class="passo" id="passo-1">
+            <img src="passo1.jpg" alt="Sala com livros antigos">
+            <p>Estudando o mapa, você descobre símbolos que indicam armadilhas e caminhos alternativos. Isso pode ser útil durante a jornada.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir para a floresta</button>
+            <button class="btn-proximo" data-proximo="4">Procurar um guia local</button>
+        </div>
+
+        <!-- Passo 2 -->
+        <div class="passo" id="passo-2">
+            <img src="passo2.jpg" alt="Floresta densa">
+            <p>Você entra na floresta sem preparação e logo se depara com um rio perigoso. Você pode tentar atravessar ou procurar outro caminho.</p>
+            <button class="btn-proximo" data-proximo="5">Atravessar o rio</button>
+            <button class="btn-proximo" data-proximo="6">Procurar outra passagem</button>
+        </div>
+
+        <!-- Passo 3 -->
+        <div class="passo" id="passo-3">
+            <img src="passo3.jpg" alt="Floresta iluminada">
+            <p>Com o conhecimento do mapa, você encontra um caminho seguro pela floresta. No entanto, ouve um rugido assustador vindo do norte.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar o som</button>
+            <button class="btn-proximo" data-proximo="8">Ignorar e continuar o caminho</button>
+        </div>
+
+        <!-- Passo 4 -->
+        <div class="passo" id="passo-4">
+            <img src="passo4.jpg" alt="Mercador local">
+            <p>O guia local é um mercador que oferece informações em troca de um antigo colar que você carrega.</p>
+            <button class="btn-proximo" data-proximo="9">Aceitar a troca</button>
+            <button class="btn-proximo" data-proximo="10">Recusar e partir sozinho</button>
+        </div>
+
+        <!-- Passo 5 -->
+        <div class="passo" id="passo-5">
+            <img src="passo5.jpg" alt="Rio turbulento">
+            <p>O rio era mais fundo do que parecia. Você quase se afoga, mas encontra uma passagem subterrânea.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a passagem</button>
+        </div>
+
+        <!-- Passo 6 -->
+        <div class="passo" id="passo-6">
+            <img src="passo6.jpg" alt="Ponte improvisada">
+            <p>Você encontra uma ponte improvisada que leva a um vale. Lá, avista uma entrada que parece ser de uma caverna.</p>
+            <button class="btn-proximo" data-proximo="12">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="13">Continuar pelo vale</button>
+        </div>
+
+        <!-- Passo 7 -->
+        <div class="passo" id="passo-7">
+            <img src="passo7.jpg" alt="Animal selvagem">
+            <p>Você encontra um tigre enorme. Ele parece estar guardando algo brilhante.</p>
+            <button class="btn-proximo" data-proximo="14">Enfrentar o tigre</button>
+            <button class="btn-proximo" data-proximo="15">Recuar e seguir outro caminho</button>
+        </div>
+
+        <!-- Passo 8 -->
+        <div class="passo" id="passo-8">
+            <img src="passo8.jpg" alt="Ruínas na floresta">
+            <p>Ignorando o som, você encontra as ruínas de um antigo templo. O mapa indica que Azuran está próxima.</p>
+            <button class="btn-proximo" data-proximo="14">Explorar as ruínas</button>
+        </div>
+
+        <!-- Passo 9 -->
+        <div class="passo" id="passo-9">
+            <img src="passo9.jpg" alt="Pergaminho antigo">
+            <p>O mercador entrega um pergaminho que revela o ponto exato da entrada para Azuran.</p>
+            <button class="btn-proximo" data-proximo="13">Seguir para a entrada</button>
+        </div>
+
+        <!-- Passo 10 -->
+        <div class="passo" id="passo-10">
+            <img src="passo10.jpg" alt="Selva fechada">
+            <p>Sozinho, você se perde em uma trilha cheia de espinhos. Você decide voltar ao início da floresta.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+
+        <!-- Passo 11 -->
+        <div class="passo" id="passo-11">
+            <img src="passo11.jpg" alt="Passagem secreta">
+            <p>Na passagem subterrânea, você encontra inscrições que indicam o tesouro em Azuran, mas avisa sobre armadilhas.</p>
+            <button class="btn-proximo" data-proximo="14">Seguir com cuidado</button>
+        </div>
+
+        <!-- Passo 12 -->
+        <div class="passo" id="passo-12">
+            <img src="passo12.jpg" alt="Caverna brilhante">
+            <p>A caverna leva você diretamente à entrada de Azuran, onde um brilho intenso indica a presença do tesouro.</p>
+            <button class="btn-proximo" data-proximo="14">Explorar Azuran</button>
+        </div>
+
+        <!-- Passo 13 -->
+        <div class="passo" id="passo-13">
+            <img src="passo13.jpg" alt="Vale misterioso">
+            <p>No vale, você encontra uma estátua gigante que aponta para uma porta secreta na montanha.</p>
+            <button class="btn-proximo" data-proximo="14">Abrir a porta</button>
+        </div>
+
+        <!-- Passo 14 -->
+        <div class="passo" id="passo-14">
+            <img src="passo14.jpg" alt="Tesouro em Azuran">
+            <p>Você finalmente encontra Azuran e o tesouro perdido: ouro, joias e artefatos históricos. Parabéns por completar a jornada!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar a aventura</button>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
